@@ -19,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={mont.className}>{children}</body>
+      <body
+        className={`${mont.className} bg-zinc-950 text-zinc-50 antialiased container px-4 mx-auto `}
+      >
+        {children}
+      </body>
     </html>
   );
 }

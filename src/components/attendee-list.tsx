@@ -3,7 +3,7 @@ import React from "react";
 export const AttendeeList = () => {
   return (
     <div>
-      <div className="flex flex-col items-center justify-start gap-5">
+      <div className="flex flex-col items-start justify-start gap-5">
         <h2 className="text-2xl font-bold">Participantes</h2>
 
         <div className="flex items-center justify-start gap-2 px-3 w-72 py-2 border border-white/10 bg-transparent text-sm rounded-md">
